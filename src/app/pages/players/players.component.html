@@ -1,0 +1,4 @@
+<div>
+    <input type="text" class="form-control" placeholder="find players by name" #filter (keyup)="update(filter.value)" />
+    <button class="btn btn-light" type="button" (click)="update(''); filter.vaue = ''">Clear</button>
+</div>
